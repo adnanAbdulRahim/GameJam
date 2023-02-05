@@ -5,12 +5,7 @@ The game was developed on a mac but can be played on both platforms windows and 
 
 Resources used:
 Tilemap Tutorial: https://www.youtube.com/watch?v=QkbGr1rAya8&t=1197s&ab_channel=CodinginFlow
-Background:https://assetstore.unity.com/packages/2d/textures-materials/nature/ground-earth-and-rocks-free-texture-a-hand-painted-235783
-
-Applications: 
-Unity Engine
-Visual Studio Code
-Pixilart.com
+Sprits: Pixilart.com
 
 Credits:
 Adnan AbdulRahim, 
