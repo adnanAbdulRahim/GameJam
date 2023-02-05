@@ -1,1 +1,1 @@
-# GameJam
+Root Runner, a game that was made by 5 students for Global Game Jam 2023. The game is made in 2D style and has got some key fetures which are: a player, underground, obstacles and roots. The main theme of the game is Roots, as so the obstacles that were made are from roots and the whole game is in underground.
