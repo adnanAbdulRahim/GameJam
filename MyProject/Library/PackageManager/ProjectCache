@@ -1,93 +1,44 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/adnanabdulrahim/Desktop/UnityProjects/My project/Packages/manifest.json
+    m_FilePath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638111553520000000
-    m_Hash: 2679588819
+      ticks: 638112231030000000
+    m_Hash: 3908217133
   m_LockFileStatus:
-    m_FilePath: /Users/adnanabdulrahim/Desktop/UnityProjects/My project/Packages/packages-lock.json
+    m_FilePath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638111553520000000
-    m_Hash: 4272505959
+      ticks: 638112231070000000
+    m_Hash: 670474601
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.2d.tilemap@1.0.0
+    - packageId: com.unity.collab-proxy@2.0.0
       testable: 0
       isDirectDependency: 1
-      version: 1.0.0
-      source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap
-      assetPath: Packages/com.unity.2d.tilemap
-      name: com.unity.2d.tilemap
-      displayName: 2D Tilemap Editor
-      author:
-        name: 
-        email: 
-        url: 
-      category: 2D
-      type: 
-      description: 2D Tilemap Editor is a package that contains editor functionalities
-        for editing Tilemaps.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0
-        compatible:
-        - 1.0.0
-        verified: 1.0.0
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - 2d
-      - Tilemap
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 0
-      repository:
-        type: 
-        url: 
-        revision: 
-        path: 
-    - packageId: com.unity.collab-proxy@1.3.9
-      testable: 0
-      isDirectDependency: 1
-      version: 1.3.9
+      version: 2.0.0
       source: 1
-      resolvedPath: /Users/adnanabdulrahim/Desktop/UnityProjects/My project/Library/PackageCache/com.unity.collab-proxy@1.3.9
+      resolvedPath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Library/PackageCache/com.unity.collab-proxy@2.0.0
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
-      displayName: Unity Collaborate
+      displayName: Version Control
       author:
         name: 
         email: 
         url: 
       category: Editor
       type: asset
-      description: Collaborate with your teammates with the official version control
-        system for Unity. Collaborate is a simple way for teams to save, share, and
-        sync your Unity project.
+      description: The Version Control package gives you the ability to use either
+        Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
+        SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
+        about how you can get started for free by visiting plasticscm.com.
       status: 4
       errors: []
       versions:
@@ -187,16 +138,19 @@ m_PackageAssets:
       dependencies: []
       resolvedDependencies: []
       keywords:
-      - vsc
-      - version
-      - control
-      - collab
-      - collaboration
-      - collaborate
-      - teams
-      - team
-      - cloud
       - backup
+      - cloud
+      - collab
+      - collaborate
+      - collaboration
+      - control
+      - plastic
+      - plasticscm
+      - source
+      - team
+      - teams
+      - version
+      - vcs
       registry:
         id: main
         name: 
@@ -209,20 +163,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314349270000000
-      documentationUrl: 
+      datePublishedTicks: 638095491550000000
+      documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: fa825106f349f996acff22f718845eab46ca2d7c
+        revision: a1b1151e0c90bc327ea95678473c1f3a935b2c9e
         path: 
-    - packageId: com.unity.ide.rider@2.0.7
+    - packageId: com.unity.ide.rider@3.0.18
       testable: 0
       isDirectDependency: 1
-      version: 2.0.7
+      version: 3.0.18
       source: 1
-      resolvedPath: /Users/adnanabdulrahim/Desktop/UnityProjects/My project/Library/PackageCache/com.unity.ide.rider@2.0.7
+      resolvedPath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Library/PackageCache/com.unity.ide.rider@3.0.18
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -310,17 +264,11 @@ m_PackageAssets:
         - 3.0.18
         verified: 2.0.7
       dependencies:
-      - name: com.unity.test-framework
-        version: 1.1.1
-      resolvedDependencies:
-      - name: com.unity.test-framework
-        version: 1.1.24
       - name: com.unity.ext.nunit
         version: 1.0.6
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ext.nunit
+        version: 1.0.6
       keywords: []
       registry:
         id: main
@@ -334,20 +282,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637334461080000000
-      documentationUrl: 
+      datePublishedTicks: 638088746970000000
+      documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-        revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
+        revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.7
+    - packageId: com.unity.ide.visualstudio@2.0.17
       testable: 0
       isDirectDependency: 1
-      version: 2.0.7
+      version: 2.0.17
       source: 1
-      resolvedPath: /Users/adnanabdulrahim/Desktop/UnityProjects/My project/Library/PackageCache/com.unity.ide.visualstudio@2.0.7
+      resolvedPath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Library/PackageCache/com.unity.ide.visualstudio@2.0.17
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -411,7 +359,7 @@ m_PackageAssets:
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.24
+        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -431,20 +379,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637486638490000000
-      documentationUrl: 
+      datePublishedTicks: 638059987360000000
+      documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: dec282022c7a95fada560c36f53da9dd155a142c
+        revision: 1f126893bfb18ea9661fb15771613e841467073c
         path: 
-    - packageId: com.unity.ide.vscode@1.2.3
+    - packageId: com.unity.ide.vscode@1.2.5
       testable: 0
       isDirectDependency: 1
-      version: 1.2.3
+      version: 1.2.5
       source: 1
-      resolvedPath: /Users/adnanabdulrahim/Desktop/UnityProjects/My project/Library/PackageCache/com.unity.ide.vscode@1.2.3
+      resolvedPath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Library/PackageCache/com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -504,20 +452,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637394922300000000
+      datePublishedTicks: 637800255360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
-        revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
+        url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        revision: b0740c80bfc2440527c317109f7c3d9100132722
         path: 
-    - packageId: com.unity.test-framework@1.1.24
+    - packageId: com.unity.test-framework@1.1.31
       testable: 0
       isDirectDependency: 1
-      version: 1.1.24
+      version: 1.1.31
       source: 1
-      resolvedPath: /Users/adnanabdulrahim/Desktop/UnityProjects/My project/Library/PackageCache/com.unity.test-framework@1.1.24
+      resolvedPath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Library/PackageCache/com.unity.test-framework@1.1.31
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -618,20 +566,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637505702940000000
+      datePublishedTicks: 637804266210000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: e6fe8892689398c0d9aba4587e0ba69edc3d82b8
+        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
         path: 
-    - packageId: com.unity.textmeshpro@3.0.4
+    - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
       isDirectDependency: 1
-      version: 3.0.4
+      version: 3.0.6
       source: 1
-      resolvedPath: /Users/adnanabdulrahim/Desktop/UnityProjects/My project/Library/PackageCache/com.unity.textmeshpro@3.0.4
+      resolvedPath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Library/PackageCache/com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -790,20 +738,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637492944820000000
+      datePublishedTicks: 637547111200000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: e2f8dffb26de9a130d5b2140d83891d9a7825330
+        revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
         path: 
-    - packageId: com.unity.timeline@1.4.7
+    - packageId: com.unity.timeline@1.6.4
       testable: 0
       isDirectDependency: 1
-      version: 1.4.7
+      version: 1.6.4
       source: 1
-      resolvedPath: /Users/adnanabdulrahim/Desktop/UnityProjects/My project/Library/PackageCache/com.unity.timeline@1.4.7
+      resolvedPath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Library/PackageCache/com.unity.timeline@1.6.4
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -961,13 +909,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637516874380000000
+      datePublishedTicks: 637789039180000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-        revision: 66f96ddbbc76f565093e1e5e5d3d322d28acc7d7
+        revision: d7e1eb6805737974459309b7d6e7db58635dd167
         path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
@@ -1031,6 +979,92 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.unity.visualscripting@1.8.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.8.0
+      source: 1
+      resolvedPath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Library/PackageCache/com.unity.visualscripting@1.8.0
+      assetPath: Packages/com.unity.visualscripting
+      name: com.unity.visualscripting
+      displayName: Visual Scripting
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: tool
+      description: 'Visual scripting is a workflow that uses visual, node-based graphs
+        to design behaviors rather than write lines of C# script.
+
+
+        Enabling
+        artists, designers and programmers alike, visual scripting can be used to
+        design final logic, quickly create prototypes, iterate on gameplay and create
+        custom nodes to help streamline collaboration.
+
+
+        Visual scripting
+        is compatible with third-party APIs, including most packages, assets and
+        custom libraries.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.5.0
+        - 1.5.1-pre.3
+        - 1.5.1-pre.5
+        - 1.5.1
+        - 1.5.2
+        - 1.6.0-pre.3
+        - 1.6.0
+        - 1.6.1
+        - 1.7.1
+        - 1.7.2
+        - 1.7.3
+        - 1.7.5
+        - 1.7.6
+        - 1.7.7
+        - 1.7.8
+        - 1.8.0-pre.1
+        - 1.8.0
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 638060044680000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
+        revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
         path: 
     - packageId: com.unity.modules.ai@1.0.0
       testable: 0
@@ -2779,7 +2813,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: /Users/adnanabdulrahim/Desktop/UnityProjects/My project/Library/PackageCache/com.unity.ext.nunit@1.0.6
+      resolvedPath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Library/PackageCache/com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2841,5 +2875,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: /Users/adnanabdulrahim/Desktop/UnityProjects/My project/Packages
+m_ProjectPath: /Users/adnanabdulrahim/Desktop/GameJamProject/GameJam/MyProject/Packages
 m_EditorVersion: 2020.3.5f1 (8095aa901b9b)
